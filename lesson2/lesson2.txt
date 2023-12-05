@@ -1,0 +1,9 @@
+- Type Annotations:
+    + ép buộc chính xác
+    + let nameVar: typeVar;
+    + let array: (string | number)[] = ['',0]
+
+- Type Inderece: 
+    + Tự ép kiểu
+
+- Không sử dụng String, Number, Boolean, Symbol, Object viết hoa.

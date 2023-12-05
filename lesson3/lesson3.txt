@@ -1,0 +1,22 @@
+- Type:
+    +number: let num: number = 1.6;
+    +string: let str: string = `${var}`;
+    +boolean: let a: boolean = Boolean("var");
+        -> var = ""->flase
+    +object: let obj: {name: string, age: number} = {name: 'Thuy', age: 18};
+        ->name, age có thể đổi chỗ
+    +array: let arr: (number|..)[] = []
+    +tupple: let tup: [string, number] = ["",0]
+        ->nghiêm ngạt thứ tự kiểu, size
+        ->let tup: [string, number?] = [""] //thêm ? để ko chắc có ptu đó ko
+    +enum: let a {a1, a2}; a.a1=1, a.a2=2
+        ->lấy ra STT
+        let a {vn='xinchao'}; a.vn='xinchao'
+    +any: let a: any =... //bỏ qua check lỗi kiểu
+    +void: const a = (message: string): void =>{}
+        -> func ko có return trả về "undefine"
+    +never: không trả ra gì cả
+
+- Type ALiases: biến ẩn danh
+    + type num_strType = number | string;
+    let var: num_strType;

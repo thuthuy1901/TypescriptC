@@ -1,0 +1,12 @@
+- Condition:
+    + True: true, number !=0, string, Infinity, {}, [], 1n
+    + False: false, 0, -0, 0n, "", null, undefined, NaN
+
+- Loop:
+    + While: đk không đúng ko chạy lần nào
+    + Do While: đk ko đúng vẫn chạy 1 lần
+
+- Break/Return, Continue:
+    + Break(loop): thoát hản ra(for), đi tới cái tiếp theo(switch).
+    + Continue(loop): bỏ qua 1l chạy thực hiện bước tiếp.
+    + Return(fuc).

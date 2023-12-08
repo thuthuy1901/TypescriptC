@@ -1,0 +1,13 @@
+-Static Methods:
+    + nameClass{ static nameVar=10; ...}
+    ->nameClass.nameVar
+    +truy cập qua tên nameClass
+
+-Abstract Classes: lớp trừ tượng
+    +Không chứa body, chỉ định nghĩa tên
+    +Lớp con thừa hưởng hết lớp cha + chứa body
+
+-Interface: luôn bắt đầu bằng chữ hoa
+    +Interface thiên về OOP, tự động cộng gộp
+    ->thừa thuộc tính ko sao
+    +Type thiên về tổ chức code

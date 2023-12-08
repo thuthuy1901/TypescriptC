@@ -1,0 +1,12 @@
+- Classes:
+
+- Access Modifiers:
+    +public: truy cập xem + cập nhập được
+    +private: truy cập xem + ko cập nhập
+    +protected: truy cập xem qua lớp con
+
+- ReadOnly: chỉ đọc
+
+- Inherritance:
+    + super(nameVar)
+    + sunper.nameFunc()

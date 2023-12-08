@@ -1,0 +1,4 @@
+- Func Overloading:
+    +tên func giống nhau
+    +xử lý giống nhau
+    +tham số đầu vào và kết quả đầu ra khác nhau

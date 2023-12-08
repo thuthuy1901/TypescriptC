@@ -1,0 +1,9 @@
+- Optional Parameters: tham số tùy chọn
+    +a?: number
+
+- Default Parameters: 
+    +fun(a:number, b=false){}
+
+- Rest Parameters: tham số còn lại
+    +fun(...num:number[]):number{}
+    +ở cuối cùng + chỉ có 1
